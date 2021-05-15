@@ -312,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AmplitudeTest/AmplitudeTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -336,7 +336,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "AmplitudeTest/AmplitudeTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
