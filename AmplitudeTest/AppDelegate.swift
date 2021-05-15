@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AmplitudeTest
 //
-//  Created by Sergey Bykov on 15.05.2021.
+//  Created by Serhii Bykov on 15.05.2021.
 //
 
 import Cocoa

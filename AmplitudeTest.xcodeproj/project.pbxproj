@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		5941D6F92650371D009C33A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5941D6F72650371D009C33A5 /* MainMenu.xib */; };
 		5941D70326503796009C33A5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941D70226503796009C33A5 /* TestViewController.swift */; };
 		5941D705265037C5009C33A5 /* TestWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941D704265037C5009C33A5 /* TestWindow.swift */; };
+		5941D93526504D7B009C33A5 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = 5941D93426504D7B009C33A5 /* Amplitude */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		5941D6F82650371D009C33A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5941D6FA2650371D009C33A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5941D6FB2650371D009C33A5 /* AmplitudeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmplitudeTest.entitlements; sourceTree = "<group>"; };
-		5941D70126503771009C33A5 /* Amplitude-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Amplitude-iOS"; sourceTree = "<group>"; };
 		5941D70226503796009C33A5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		5941D704265037C5009C33A5 /* TestWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWindow.swift; sourceTree = "<group>"; };
+		5941D707265038D5009C33A5 /* AmplitudeTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmplitudeTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		5941D93326504D5F009C33A5 /* Amplitude-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Amplitude-iOS"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5941D93526504D7B009C33A5 /* Amplitude in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,9 +43,9 @@
 		5941D6E72650371D009C33A5 = {
 			isa = PBXGroup;
 			children = (
-				5941D70126503771009C33A5 /* Amplitude-iOS */,
 				5941D6F22650371D009C33A5 /* AmplitudeTest */,
 				5941D6F12650371D009C33A5 /* Products */,
+				5941D70D26503938009C33A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +60,7 @@
 		5941D6F22650371D009C33A5 /* AmplitudeTest */ = {
 			isa = PBXGroup;
 			children = (
+				5941D84E26504D54009C33A5 /* 3rdParty */,
 				5941D6F32650371D009C33A5 /* AppDelegate.swift */,
 				5941D6F52650371D009C33A5 /* Assets.xcassets */,
 				5941D704265037C5009C33A5 /* TestWindow.swift */,
@@ -64,9 +68,25 @@
 				5941D6F72650371D009C33A5 /* MainMenu.xib */,
 				5941D6FA2650371D009C33A5 /* Info.plist */,
 				5941D6FB2650371D009C33A5 /* AmplitudeTest.entitlements */,
+				5941D707265038D5009C33A5 /* AmplitudeTest-Bridging-Header.h */,
 			);
 			path = AmplitudeTest;
 			sourceTree = "<group>";
+		};
+		5941D70D26503938009C33A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5941D84E26504D54009C33A5 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5941D93326504D5F009C33A5 /* Amplitude-iOS */,
+			);
+			path = 3rdParty;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -84,6 +104,9 @@
 			dependencies = (
 			);
 			name = AmplitudeTest;
+			packageProductDependencies = (
+				5941D93426504D7B009C33A5 /* Amplitude */,
+			);
 			productName = AmplitudeTest;
 			productReference = 5941D6F02650371D009C33A5 /* AmplitudeTest.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +122,7 @@
 				TargetAttributes = {
 					5941D6EF2650371D009C33A5 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -277,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AmplitudeTest/AmplitudeTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -287,8 +312,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmplitudeTest/AmplitudeTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -298,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = AmplitudeTest/AmplitudeTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -308,8 +336,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esphynox.AmplitudeTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AmplitudeTest/AmplitudeTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -336,6 +365,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5941D93426504D7B009C33A5 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Amplitude;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5941D6E82650371D009C33A5 /* Project object */;
 }

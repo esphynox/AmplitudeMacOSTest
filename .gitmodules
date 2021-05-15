@@ -1,3 +1,3 @@
 [submodule "Amplitude-iOS"]
-	path = Amplitude-iOS
+	path = 3rdParty/Amplitude-iOS
 	url = https://github.com/amplitude/Amplitude-iOS
