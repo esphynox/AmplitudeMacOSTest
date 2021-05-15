@@ -19,6 +19,7 @@
 		5941D6F82650371D009C33A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5941D6FA2650371D009C33A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5941D6FB2650371D009C33A5 /* AmplitudeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmplitudeTest.entitlements; sourceTree = "<group>"; };
+		5941D70126503771009C33A5 /* Amplitude-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Amplitude-iOS"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		5941D6E72650371D009C33A5 = {
 			isa = PBXGroup;
 			children = (
+				5941D70126503771009C33A5 /* Amplitude-iOS */,
 				5941D6F22650371D009C33A5 /* AmplitudeTest */,
 				5941D6F12650371D009C33A5 /* Products */,
 			);
