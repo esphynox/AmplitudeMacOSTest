@@ -10,6 +10,8 @@
 		5941D6F42650371D009C33A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941D6F32650371D009C33A5 /* AppDelegate.swift */; };
 		5941D6F62650371D009C33A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5941D6F52650371D009C33A5 /* Assets.xcassets */; };
 		5941D6F92650371D009C33A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5941D6F72650371D009C33A5 /* MainMenu.xib */; };
+		5941D70326503796009C33A5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941D70226503796009C33A5 /* TestViewController.swift */; };
+		5941D705265037C5009C33A5 /* TestWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941D704265037C5009C33A5 /* TestWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5941D6FA2650371D009C33A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5941D6FB2650371D009C33A5 /* AmplitudeTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmplitudeTest.entitlements; sourceTree = "<group>"; };
 		5941D70126503771009C33A5 /* Amplitude-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Amplitude-iOS"; sourceTree = "<group>"; };
+		5941D70226503796009C33A5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		5941D704265037C5009C33A5 /* TestWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				5941D6F32650371D009C33A5 /* AppDelegate.swift */,
 				5941D6F52650371D009C33A5 /* Assets.xcassets */,
+				5941D704265037C5009C33A5 /* TestWindow.swift */,
+				5941D70226503796009C33A5 /* TestViewController.swift */,
 				5941D6F72650371D009C33A5 /* MainMenu.xib */,
 				5941D6FA2650371D009C33A5 /* Info.plist */,
 				5941D6FB2650371D009C33A5 /* AmplitudeTest.entitlements */,
@@ -131,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5941D70326503796009C33A5 /* TestViewController.swift in Sources */,
 				5941D6F42650371D009C33A5 /* AppDelegate.swift in Sources */,
+				5941D705265037C5009C33A5 /* TestWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
